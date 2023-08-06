@@ -1,0 +1,25 @@
+#box{
+    height: 250px;
+    width: 400px;
+    border: 1px solid black;
+    padding: 10px;
+}
+.box>div {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+.box{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+#box1{
+    background-color: red;
+}
+#box2 {
+    background-color: blue;
+}
+#box3 {
+    background-color: yellow;
+}
